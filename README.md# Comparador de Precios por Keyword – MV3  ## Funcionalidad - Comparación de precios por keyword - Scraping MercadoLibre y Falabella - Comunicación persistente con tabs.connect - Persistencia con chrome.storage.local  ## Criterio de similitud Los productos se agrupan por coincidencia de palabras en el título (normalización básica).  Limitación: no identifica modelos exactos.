@@ -1,0 +1,13 @@
+# Comparador de Precios por Keyword – MV3
+
+## Funcionalidad
+- Comparación de precios por keyword
+- Scraping MercadoLibre y Falabella
+- Comunicación persistente con tabs.connect
+- Persistencia con chrome.storage.local
+
+## Criterio de similitud
+Los productos se agrupan por coincidencia de palabras
+en el título (normalización básica).
+
+Limitación: no identifica modelos exactos.
